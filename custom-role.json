@@ -1,0 +1,12 @@
+{
+  "Name": "AZ104 VM Operator",
+  "Description": "Can view resources and start/restart VMs only.",
+  "Actions": [
+    "Microsoft.Compute/virtualMachines/read",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/restart/action",
+    "Microsoft.Resources/subscriptions/resourceGroups/read"
+  ],
+  "NotActions": [],
+  "AssignableScopes": ["/subscriptions/0c995223-4520-455f-86fa-f408643a6020/resourceGroups/rg-az104-governance-project"]
+}
